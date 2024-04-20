@@ -1,0 +1,144 @@
+.header-wrapper {
+  background-color: #fff !important;
+  box-shadow: 0px 6px 8px #a7a7a729 !important;
+  position: fixed !important;
+  top: 0;
+  width: 100% !important;
+  z-index: 10;
+}
+
+.send-docs {
+  background-color: #f2f2f2 !important;
+}
+
+.rpv-core__inner-page {
+  background-color: #f2f2f2 !important;
+}
+
+.pdf-viewer-email {
+  margin-top: 98px;
+}
+
+.header-image {
+  margin: 21px;
+}
+
+.send-reportdata {
+  border: 1px solid #1e3760;
+  text-transform: capitalize;
+  font-size: 18px;
+  line-height: 20px;
+  border-radius: 8px;
+  color: #fff;
+  background-color: #1c407b;
+  width: 100%;
+  padding: 16px;
+  font-weight: 500;
+  clear: both;
+  float: right;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 22px;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+.send-email-report {
+  border: 1px solid #1e3760;
+  text-transform: capitalize;
+  font-size: 18px;
+  line-height: 20px;
+  border-radius: 8px;
+  color: #fff;
+  background-color: #1c407b;
+  width: 100%;
+  padding: 16px;
+  font-weight: 500;
+  clear: both;
+  float: right;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 22px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.send-email {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.send-email a:hover {
+  color: #ffff !important;
+}
+
+.pdf-viewer {
+  padding-top: 20px;
+}
+
+#toolbar {
+  display: none !important;
+}
+
+.rpv-toolbar__right {
+  display: none !important;
+}
+
+.rpv-toolbar__left {
+  display: none !important;
+}
+
+.rpv-toolbar__center {
+  display: none !important;
+}
+
+.rpv-default-layout__toolbar {
+  display: none !important;
+}
+
+.rpv-default-layout__sidebar-headers {
+  display: none !important;
+}
+
+.rpv-default-layout__body {
+  background-color: #f2f2f2 !important;
+  padding-top: 0 !important;
+}
+
+.rpv-default-layout__container {
+  border: none !important;
+}
+
+@media (min-width: 200px) and (max-width: 767px) {
+  .send-report {
+    width: 100%;
+  }
+  .send-docs {
+    background-color: #f2f2f2 !important;
+    height: 720px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .pdf-file-viewer {
+    height: 850px;
+    width: 100%;
+    z-index: 99;
+    scale: 1;
+    margin-top: 100px;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 767px) {
+  .send-reportdata {
+    width: 56% !important;
+  }
+}

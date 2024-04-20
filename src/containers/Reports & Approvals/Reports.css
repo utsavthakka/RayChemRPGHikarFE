@@ -1,0 +1,617 @@
+.loader {
+  border: 2px solid #f3f3f3;
+  border-top: 2px solid #3498db;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 14px;
+  height: 14px;
+  animation: spin 0.8s linear infinite;
+}
+.form-dropdown {
+  margin-left: 0 !important;
+}
+
+.box-and-datepicker {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+.date-picker {
+  display: flex !important;
+  width: 39% !important;
+}
+
+.MuiButtonBase-root {
+  display: flex !important;
+}
+.time-picker {
+  width: 73px;
+}
+
+.tablist {
+  height: 100% !important;
+}
+.tab-button {
+  height: 58px !important;
+  margin-top: 5px !important;
+}
+.ARButton_VI{
+  margin-top: 0 !important;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.approval-table {
+  background-color: white !important;
+  margin-top: 63px;
+}
+.statusflow {
+  overflow: auto;
+  border-top: none !important;
+}
+.statusflowtd {
+  overflow: auto;
+  max-width: 375vh;
+}
+
+.statusflow th {
+  padding: 0 !important;
+  height: 136px;
+}
+.approved-textarea {
+  border: 1px solid #000000;
+  border-radius: 6px;
+  width: 90%;
+  margin-top: 11px;
+}
+.statusflowtable,
+td {
+  border-right: 1px solid #a9b0bd;
+}
+.electric-test-table th {
+  font-size: 14px !important;
+  font-weight: 600;
+  background-color: white;
+  /* position: sticky; */
+  max-height: 90vh;
+  /* z-index: 9; */
+}
+.font-bold {
+  font-weight: 900;
+  margin-right: 5px;
+}
+.electric-test-table {
+  border-radius: 0px 0px 8px 8px;
+}
+.Approved-btn {
+  width: 140px;
+  margin-top: 20px;
+  margin-left: 10px;
+  background-color: #1c407b;
+}
+.rejected-btn {
+  width: 140px;
+  background-color: transparent;
+  margin-top: 20px;
+  color: black;
+}
+
+.card-Approved {
+  height: auto;
+  width: auto;
+  padding: 15px;
+}
+.card-content-Approved {
+  color: #1c407b;
+  margin-left: 145px;
+}
+.sendingdataaaa {
+  position: fixed;
+  top: 40%;
+  left: 42%;
+  transform: translate(-50px, -50px);
+  z-index: 99;
+}
+.statusflow-defects-head {
+  font-size: 14px !important;
+  letter-spacing: 0px;
+  line-height: 18px !important;
+  height: 136px;
+  transform: rotate(-90deg);
+  transform: translateX(-1px) !important;
+  position: sticky;
+  left: 0;
+  background: white;
+  border-right: 1px solid black;
+  box-shadow: "5px 2px 5px grey";
+  /* z-index: 1; */
+}
+.statusflow-defects {
+  transform: translateX(-1px) !important;
+  position: sticky;
+  left: 0;
+  background: white;
+  border-right: 1px solid black;
+  box-shadow: "5px 2px 5px grey";
+  /* z-index: 1; */
+}
+.defects {
+  font-size: 14px !important;
+  letter-spacing: 0px;
+  line-height: 18px !important;
+  transform: rotate(-90deg);
+  padding: 0 !important;
+  width: max-content;
+}
+
+.historyTitle td {
+  padding: 7px 20px !important;
+  position: "sticky";
+  left: 0;
+  background: "white";
+  box-shadow: "5px 2px 5px grey";
+  border-right: "2px solid black";
+}
+.statusflow tr:nth-child(even) {
+  background-color: white !important;
+}
+
+.status-icon-disabled {
+  opacity: 0;
+}
+/* .css-gqssyb{
+  min-width: 0px !important;
+} */
+.box-tabs-table .Mui-selected {
+  background: #fff;
+  color: #000 !important;
+  position: relative;
+}
+.box-tabs-table .MuiTabs-flexContainer {
+  padding-bottom: 13px;
+}
+.box-tabs-table .MuiTabs-flexContainer button {
+  overflow: initial;
+}
+.box-tabs-table .Mui-selected > span {
+  background: transparent;
+  height: 0px;
+  width: 0px;
+  border-bottom: 10px solid #fff;
+  border-right: 10px solid #fff;
+  border-top: 10px solid transparent;
+  border-left: 10px solid transparent;
+  position: absolute;
+  top: calc(100% - 12px);
+  left: 50%;
+  transform: translatex(-50%) rotate(45deg);
+  box-shadow: 1px 1px 1px #a9b0bd;
+}
+.defects-head {
+  background: #ffeced !important;
+  color: #e31e24 !important;
+}
+.box-tabs-table .MuiTabs-indicator {
+  display: none;
+}
+/* .box-tabs-btn .Mui-selected {
+    background: #fff;
+    color: #000 !important;
+    position: relative;
+} */
+
+/* .historyTitle td :first-child{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+} */
+.approvalstatus {
+  border: none;
+  background-color: transparent;
+  color: #001323;
+  padding: 0;
+  width: auto;
+}
+
+.electric-table td {
+  padding: 10px 20px !important;
+}
+.electricTest-table td {
+  padding: 13px 20px !important;
+}
+.main-table-reports td {
+  padding: 12px 20px !important;
+}
+.card-approved-btn {
+  border: 1px solid #1e3760;
+  text-transform: capitalize;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #1c407b;
+  width: 140px;
+  margin-top: 7px;
+  padding: 16px;
+  font-weight: 500;
+}
+.table-wrap {
+  max-height: 90vh;
+}
+.Box-Tabs {
+  margin-bottom: -50px;
+}
+.Electric-data {
+  margin-top: 0px !important;
+  padding-top: 10px !important;
+}
+.ElectricTestReport-Modal {
+  position: fixed;
+  top: 10vh;
+  left: 5vw;
+  height: auto;
+  width: 90vw;
+  background: #fff;
+  z-index: 99;
+  border-radius: 16px;
+  box-shadow: 0px 0px 30px #0000004d;
+  overflow: hidden;
+  overflow-y: auto;
+  max-height: 90vh;
+}
+option{
+  padding: 8px;
+}
+.electricReport-Title {
+  margin-left: auto;
+  margin-right: auto;
+}
+.select_print_result{
+  border: none;
+  color: #757fa1;
+  background: #f1f1ff;
+  outline: none;
+}
+.select-option {
+  padding: 8px !important;
+}
+.electric-status {
+  margin-left: 0px !important;
+}
+.electricTest-data {
+  margin-top: 0 !important;
+}
+.header-data-table {
+  border: 1px solid #a9b0bd;
+  border-radius: 8px;
+  width: 100%;
+}
+.header-approval-data {
+  padding: 20px;
+  border: 1px solid #a9b0bd;
+  margin-top: 66px;
+  border-radius: 8px 8px 0px 0px;
+  background: white;
+  border-bottom: none;
+}
+.header-approval-data .single-data-item,
+.matching-data-section .single-data-item {
+  border-right: 1px solid #a9b0bd;
+}
+.header-approval-data {
+  padding-top: 40px;
+}
+
+.header-approval-data .single-data-item,
+.matching-data-section .single-data-item {
+  border-right: 1px solid #a9b0bd;
+}
+
+.header-approval-data .single-data-item:last-child,
+.matching-data-section .single-data-item:last-child {
+  border-right: 0px;
+}
+
+.header-approval-data .common-table,
+.matching-data-section .common-table {
+  width: 100%;
+  margin-left: 10px;
+}
+
+.header-approval-data .common-table td,
+.matching-data-section .common-table td:first-child {
+  padding: 8px !important;
+  width: 34%;
+}
+
+.header-approval-data .common-table td:nth-child(2),
+.matching-data-section .common-table td:nth-child(2) {
+  padding: 8px !important;
+  width: 60%;
+}
+.header-filter {
+  margin-top: -7px !important;
+}
+
+@media (max-width: 2200.98px) {
+  .approved-rejected-btn {
+    margin-left: 742px !important;
+    margin-top: -171px !important;
+    justify-content: start !important;
+    margin-bottom: 62px;
+  }
+
+  .statusflow th {
+    height: 215px;
+  }
+  .Rejected-status2 {
+    color: black;
+    opacity: 0.5;
+  }
+}
+
+@media (max-width: 1800.98px) {
+  .approved-rejected-btn {
+    margin-left: 482px !important;
+    margin-top: -166px !important;
+    justify-content: start !important;
+    margin-bottom: 58px !important;
+  }
+}
+@media (max-width: 1620.98px) {
+  .approved-rejected-btn {
+    margin-left: 496px !important;
+    margin-top: -157px !important;
+    justify-content: start !important;
+    margin-bottom: 62px !important;
+  }
+}
+
+@media (max-width: 1419.98px) {
+  .approved-rejected-btn {
+    margin-left: 743px !important;
+    margin-top: -91px !important;
+    justify-content: start !important;
+  }
+  .statusflow th {
+    height: 215px;
+  }
+}
+@media (max-width: 1399.98px) {
+  .approved-rejected-btn {
+    margin-left: 245px !important;
+    margin-top: -166px !important;
+    justify-content: start !important;
+    margin-bottom: 71px !important;
+  }
+  .statusflow th {
+    height: 215px;
+  }
+  .statusflow-defects {
+    transform: translateX(-1px) !important;
+    position: sticky;
+    left: 0;
+    background: white;
+    border-right: 1px solid black;
+    box-shadow: "5px 2px 5px grey";
+    /* z-index: 1; */
+  }
+}
+@media (max-width: 1299.98px) {
+  .approved-rejected-btn {
+    justify-content: end !important;
+  }
+  .statusflow th {
+    height: 215px;
+  }
+}
+@media (max-width: 991.98px) {
+  .approved-rejected-btn {
+    justify-content: end !important;
+  }
+  .statusflow th {
+    height: 215px;
+  }
+}
+@media (max-width: 1199.98px) {
+  .Box-Tabs {
+    margin-bottom: 12px;
+    width: 99%;
+  }
+  .visual-inspection-tabs {
+    width: 18% !important;
+    color: #3c4856;
+  }
+  .electrictest-tabs {
+    width: 18% !important;
+    color: #3c4856;
+  }
+  .Final-visual-inspection-tabs {
+    width: 20% !important;
+    color: #3c4856;
+  }
+  .reportTable tbody td:nth-child(odd) {
+    background-color: #f1f1ff;
+  }
+  .reportTable tbody td:nth-child(even) {
+    background-color: #ffff;
+  }
+  .reportTable th:nth-child(odd) {
+    background-color: #f1f1ff;
+  }
+  .reportTable th:nth-child(even) {
+    background-color: #ffff;
+  }
+}
+@media (min-width: 200px) and (max-width: 767px) {
+  .approved-rejected-btn {
+    margin-top: -157px !important;
+    margin-bottom: 62px !important;
+    justify-content: end !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .approved-rejected-btn {
+    margin-left: 306px !important;
+    margin-top: -242px !important;
+    margin-bottom: 125px !important;
+    justify-content: start !important;
+  }
+  .Rejected-status2 {
+    height: 50px !important;
+  }
+  .Approved-status1 {
+    height: 50px !important;
+  }
+  .sendingdataaaa {
+    position: fixed;
+    top: 40%;
+    left: 28%;
+    transform: translate(-50px, -50px);
+    z-index: 99;
+  }
+  .reportTable tbody td:nth-child(odd) {
+    background-color: #f1f1ff;
+  }
+  .box-tabs-table .MuiTabs-flexContainer {
+    padding-left: 6px !important;
+    padding-right: 6px !important;
+  }
+  .dipping-parameter-table-data {
+    padding-top: 0px !important;
+  }
+
+  .box-and-datepicker {
+    margin-top: 27px !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    flex-direction: column-reverse;
+  }
+
+  .date-picker {
+    display: flex !important;
+    width: 71% !important;
+  }
+}
+
+@media (min-width: 820px) and (max-width: 1024px) {
+  .approved-rejected-btn {
+    margin-left: 371px !important;
+    margin-top: -259px !important;
+    margin-bottom: 142px !important;
+    justify-content: start !important;
+  }
+  .Rejected-status2 {
+    height: 50px !important;
+  }
+  .Approved-status1 {
+    height: 50px !important;
+  }
+  .sendingdataaaa {
+    position: fixed;
+    top: 40%;
+    left: 28%;
+    transform: translate(-50px, -50px);
+    z-index: 99;
+  }
+  .reportTable tbody td:nth-child(odd) {
+    background-color: #f1f1ff;
+  }
+}
+
+@media (min-width: 820px) and (max-width: 1180px) {
+  .box-and-datepicker {
+    display: flex !important;
+    justify-content: space-between !important;
+    flex-direction: column-reverse;
+  }
+
+  .date-picker {
+    display: flex !important;
+    width: 65% !important;
+  }
+}
+
+/* button:focus:not(:focus-visible) {
+    outline: none;
+    background: white;
+    color: #3C4856;
+} */
+.electric-table-header th {
+  background-color: white;
+}
+.visual-inspection-tabs {
+  width: 13% !important;
+  border: 1px solid #a9b0bd !important;
+  border-radius: 0px 0px 0px 0px !important;
+  overflow: initial;
+  color: #3c4856 !important;
+}
+.electrictest-tabs {
+  width: 12% !important;
+  border: 1px solid #a9b0bd !important;
+  overflow: initial;
+  color: #3c4856 !important;
+}
+.Final-visual-inspection-tabs {
+  width: 30% !important;
+  border: 1px solid #a9b0bd !important;
+  border-radius: 0px 0px 0px 0px !important;
+  max-width: 217px !important;
+  overflow: initial;
+  color: #3c4856 !important;
+}
+.uid-printing-tabs {
+  width: 10% !important;
+  border: 1px solid #a9b0bd !important;
+  border-radius: 6px 0px 0px 0px !important;
+  overflow: initial;
+  color: #3c4856 !important;
+}
+.qr-printing-tabs {
+  width: 10% !important;
+  border: 1px solid #a9b0bd !important;
+  border-radius: 0px 6px 0px 0px !important;
+  overflow: initial;
+  color: #3c4856 !important;
+}
+
+.Approved-status1 {
+  pointer-events: none;
+  width: 140px;
+  margin-top: 20px;
+  margin-left: 10px;
+  background-color: #1c407b;
+  opacity: 0.5;
+}
+
+.Rejected-status2 {
+  pointer-events: none;
+  width: 140px;
+  background-color: transparent;
+  margin-top: 20px;
+  color: black;
+  opacity: 0.5;
+}
+.notTested {
+  margin-right: 17px;
+  margin-left: -12px;
+  color: #a59014;
+}
+.passFilter {
+  margin-right: 17px;
+  margin-left: -12px;
+  color: #00ab66;
+}
+.failFilter {
+  margin-right: 17px;
+  margin-left: -12px;
+  color: #e31e24;
+}

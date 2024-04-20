@@ -1,0 +1,234 @@
+.conformity-tabs {
+    width: 30% !important;
+    border: 1px solid #a9b0bd !important;
+    border-radius: 6px 0px 0px 0px !important;
+    overflow: initial;
+    min-width: 190px !important;
+}
+
+.BatchTest-tabs {
+    width: 13% !important;
+    border: 1px solid #a9b0bd !important;
+    border-radius: 0px 6px 0px 0px !important;
+    overflow: initial;
+    min-width: 190px !important;
+    color: #3C4856 !important;
+}
+
+.CustomerReport-tabs-table .Mui-selected {
+    background: #fff;
+    color: #000 !important;
+    position: relative;
+}
+
+.CustomerReport-tabs-table .MuiTabs-flexContainer {
+    padding-bottom: 20px;
+}
+
+.CustomerReport-tabs-table .MuiTabs-flexContainer button {
+    overflow: initial;
+}
+.DcBox-Tabs{
+    width: 50% !important;
+}
+.DC-tabs {
+    width: 18%!important;
+    border: 1px solid #a9b0bd!important;
+    border-radius: 6px 0px 0px 0px!important;
+    overflow: initial;
+    color: #3C4856 !important;
+}
+.add-report {
+    background: white;
+    color: #3C4856;
+    border: 1px solid #475467;
+    width: 147px;
+    padding: 0px !important;
+    height: 53px;
+    float: right;
+    margin-top: -65px;
+}
+
+.sendingdata-title {
+    color: #1C407B;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.sendingdataaaa-report {
+    position: fixed;
+    top: 25%;
+    left: 42%;
+    transform: translate(-50px, -50px);
+    z-index: 99;
+    width: 25%;
+    box-shadow: 0px 0px 30px #0000008A;
+
+}
+
+.card-reportdata {
+    height: auto;
+    width: auto;
+    padding: 20px 20px;
+}
+
+.form-input.form-input-report {
+    margin-top: -9px !important;
+}
+
+/* .CustomerReport-tabs-table .Mui-selected>span {
+    background: transparent;
+    height: none !important;
+    width: none !important;
+    border-bottom: none !important;
+    border-right: none !important;
+    border-top: none !important;
+    border-left: none !important;
+    position: none !important;
+    top: calc(100% - 12px);
+    left: 50%;
+    transform: none !important;
+    box-shadow: none !important;
+} */
+/* .CustomerReport-tabs-table .Mui-selected > span {
+    background: transparent;
+    height: 0px;
+    width: 0px;
+    border-bottom: 10px solid #fff;
+    border-right: 10px solid #fff;
+    border-top: 10px solid transparent;
+    border-left: 10px solid transparent;
+    position: absolute;
+    top: calc(100% - 12px);
+    left: 50%;
+    transform: translatex(-50%) rotate(45deg);
+    box-shadow: 1px 1px 1px #a9b0bd;
+} */
+
+.CustomerReport-tabs-table .MuiTabs-indicator {
+    display: none;
+}
+
+.eyeicon-img {
+    border: none;
+    background-color: transparent;
+    color: #001323;
+    padding: 0;
+    width: auto;
+    cursor: pointer;
+}
+.eyeicon-img-disabled{
+    border: none;
+    background-color: transparent;
+    color: #001323;
+    padding: 0;
+    width: auto;
+    opacity: 0.5;
+    pointer-events: none;
+}
+.dashboard-wrap{
+    margin: 100px 0px 0px 40px;
+}
+
+.certificate-img {
+    width: 100% !important;
+    height: 100px;
+}
+
+.certificate-title {
+    margin-top: 20px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.certificate-electrical-title{
+    margin-top: 20px;
+    font-weight: 600;
+
+}
+.certificate-table{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-radius: 0px;
+    width: 75%!important;
+    min-width: 75%
+}
+.certificate-table td{
+    padding: 10px!important;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+}
+.certificate-table tr:nth-child(even){
+background-color: white!important;
+}
+
+.certificate-table tr:hover {
+    background-color: none !important;
+}
+.certificate-table th h5{
+    text-align: center;
+    font-weight: 900;
+}
+.certificate-table th{
+   padding: 10px!important;
+}
+.certificate-address h5{
+    font-weight: 900;
+}
+.footer-img{
+    height: 200px;
+    width: 100%;
+}
+.certificate-button{
+    width: 180px;
+}
+.certificate-test .MuiInput-underline:before{
+    border-bottom: 1px solid black!important;
+   
+}
+.certificate-edit-text{
+    cursor: pointer;
+    margin-top: 7px;
+    margin-left: -21px;
+
+}
+
+.select-menu .MuiInput-underline:before {
+ border-bottom: 1px solid black!important;
+}
+.certificate-test1{
+    width: 155%;
+    margin-left: -33px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .sendingdataaaa-report {
+            top: 25%;
+            left: 25%;
+            width: 60%;
+    }
+    .certificate-test{
+           min-width: 92%!important;
+    }
+    .DC-tabs {
+        width: 46%!important;
+        border: 1px solid #a9b0bd!important;
+        border-radius: 6px 0px 0px 0px!important;
+        overflow: initial;
+        color: #3C4856 !important;
+    }
+    .certificate-test1 {
+        width: 100% !important;
+        margin-left: 0px !important;
+    }
+    .certificate-table{
+        width: 96%!important;
+    }
+    .kamfet-certificate{
+        width: 102%;
+    }
+   
+}

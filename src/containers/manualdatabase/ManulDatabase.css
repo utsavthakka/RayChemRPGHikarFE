@@ -1,0 +1,333 @@
+:root {
+  /* COLORS */
+  --neutral-dk: #011936;
+  --neutral-md: #465362;
+  --neutral-lt: #f4fffd;
+  --white: #ffffff;
+  --primary: #ed254e;
+  --accent: #f9dc5c;
+}
+
+.Manualdb{
+  margin:0px 0 10px 0;
+  color: rgb(28, 64, 123);
+
+}
+
+.Station-form h1,
+.Station-form p {
+    margin: 1rem auto;
+    text-align: center;
+  }
+  .Station-form a {
+    color: var(--primary);
+    text-decoration: none;
+  }
+.Station-form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 100px auto 0 auto;
+  padding: 2em 2em 2em 2em;
+  background: var(--white);
+  color: var(--neutral-dk);
+  border-radius: 15px;
+  /* box-shadow: 0px 0px 20px rgb(161, 150, 207); */
+}
+
+.Station-form-blure{
+  filter: blur(8px);
+}
+.Station-form:hover{
+  box-shadow: 0px 0px 25px rgb(179, 160, 207);
+}
+
+.Station-form fieldset {
+  border: none;
+  padding: 1rem 0 2rem 0;
+  border-bottom: 2px solid var(--primary);
+  margin-bottom: 1rem;
+}
+
+.Station-form fieldset:last-of-type {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.Station-form legend {
+  padding-top: 1rem;
+}
+
+.Station-form label {
+  display: block;
+  margin: 1rem 0;
+}
+
+.input-field-u1 {
+  margin: 0;
+  width: 100%;
+  cursor: pointer;
+}
+
+.input-field-u1{
+  margin-top: 0.3rem;
+  background-color: #ffffff;
+  border: 1px solid rgb(165, 165, 165);
+  border-radius: 3px;
+  outline: none;
+  color: var(--neutral-dk);
+  min-height: 2rem;
+  padding: 8px;
+  
+}
+.Station-form input:focus {
+  outline: 1px solid var(--neutral-dk);
+}
+
+.file-upload:hover{
+  box-shadow: 2px 2px 2px rgb(165, 165, 165);
+}
+.radio {
+  margin: 0;
+}
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+.Station-form input[type="radio"] {
+  outline: none; /* Remove focus outline */
+  border: none; /* Remove border */
+}
+
+.Station-form input[type="submit"] {
+  display: block;
+  width: 60%;
+  max-width: 200px;
+  margin: 0 auto;
+  height: 2em;
+  line-height: 1;
+  font-size: inherit;
+  background-color: #1C407B;
+  color: var(--white);
+  border-color: transparent;
+  outline: none;
+}
+.Station-form input[type="submit"]:hover {
+  background-color:#214d94;
+}
+
+.upload-file{
+  padding: 0 0 0 0 !important;
+  margin: 0 0 10px 0 !important;
+}
+
+.file-upload {
+  /* Hide the default file input button */
+  display: none;
+}
+
+.file-name {
+  padding: 20px;
+  margin: 0 0 20px 0;
+  
+  font-weight: bold;
+}
+.submit-btn{
+  margin-top: 20px !important;
+}
+
+.Station-form label[for="profile-picture"] {
+  /* Style the label element to resemble a button */
+  display: inline-block;
+  padding: 8px 25px;
+  background-color:#1C407B;
+  color: #fbfbfb;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.Station-form label[for="profile-picture"]:hover {
+  /* Add hover styles if desired */
+  background-color:rgb(36, 96, 194);
+}
+
+
+.Station-data-msg {
+  height: auto;
+  width: auto;
+  padding: 56px 81px 10px;
+  box-shadow: 0px 0px 30px #0000008a !important;
+}
+
+
+.Station-data-popup{
+position: fixed;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+z-index: 99;
+box-shadow: 0px 0px 30px rgb(149, 148, 148) !important;
+}
+
+.Station-data-popup-btn{
+
+    margin: 20px;
+    padding: 8px 35px;
+
+
+}
+
+.Station-data-popup-btn:hover
+{
+  box-shadow: 0px 0px 15px rgb(181, 174, 174);
+}
+
+.main-manual-database-container{
+  display: flex !important;
+  justify-content: space-between !important;
+  margin-bottom: 100px !important;
+}
+.Station-for-mmanual-datetimepicker{
+  max-width: 800px !important;
+  min-width: 500px !important;
+  height: 338px;
+  max-height: 400px;
+  min-height: 300px;
+}
+
+.manualdb-datetimepicker{
+  display: flex !important;
+  justify-content: space-between;
+  background-color: whitesmoke;
+  border-radius: 5px;
+
+padding: 10px;
+}
+
+.Station-form label{
+  margin: 0rem 0 !important;
+  }
+
+.Station-form input:focus {
+    outline: 0px solid var(--neutral-dk);
+}
+
+
+.sendingdataaaa1{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  z-index: 2;
+}
+
+.box-bag-button-container{
+  display: flex;
+}
+
+
+.Station-form input[type="submit"] {
+  display: block;
+  width: 60%;
+  max-width: 200px;
+  margin: 0 auto;
+  height: 3em;
+  line-height: 1;
+  font-size: inherit;
+  background-color: #1C407B;
+  color: var(--white);
+  border-color: transparent;
+  outline: none;
+  border-radius: 5px;
+}
+/* border: solid; */
+
+
+.checkbox-upload-flex{
+  display: flex;
+  justify-content: center;
+}
+
+
+.station-upload-button{
+  background-color: #1C407B !important;
+  border-radius: 11px;
+}
+
+.station-upload{
+  display: flex;
+  align-items: center !important;
+  margin-left: 10px !important;
+  justify-content: end;
+  flex-direction: column !important;
+  padding: 10px;
+}
+.station-checkbox{
+  margin-right: 10px !important;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 1190px) {
+  .Station-form{
+    margin: 160px auto 0 auto !important;
+    height: 100%;
+  }
+
+}
+
+@media only screen and (max-width: 1190px) {
+  .main-manual-database-container{
+    flex-direction: column;
+  }
+  
+}
+
+@media only screen and (max-width: 600px) {
+  .Station-form{
+    margin: 160px auto 0 auto !important;
+  }
+
+  .Station-form h1{
+    margin: 0px !important;
+  }
+
+  .Station-form fieldset{
+    padding: 0px !important;
+    margin-bottom: 0px !important;
+  }
+
+  .Station-form label{
+    margin:0.5rem !important;
+  }
+  .upload-file{
+    margin: 0px !important;
+
+  }
+  .main-manual-database-container{
+    display: flex !important;
+    justify-content: center !important;
+    margin-bottom: 100px !important;
+  }
+
+  .Station-for-mmanual-datetimepicker {
+    max-width: 800px !important;
+    min-width: 333px !important;
+    height: 338px;
+    max-height: 304px;
+    min-height: 280px;
+}
+.box-datepicker{
+  width: 50% !important;
+}
+.header-btn-month{
+  width: 50% !important;
+}
+}

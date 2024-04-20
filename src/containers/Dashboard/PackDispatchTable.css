@@ -1,0 +1,564 @@
+.PrintOrder-message-box{
+    position: absolute;
+  background-color: #FFFFFF;
+  padding: 10px;
+  /* border: 1px solid #ccc; */
+  border-radius: 5px;
+  width: 200px;
+  right: 8%;
+  top: 18%;
+  z-index:10;
+  opacity: 1;
+
+}
+
+
+.Phone-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Phone-img{
+
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.Print-Preview-header{
+    
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 30px;
+
+}
+
+.Preview-PrintHistory-button{
+    display: flex;
+    text-align: right;
+    align-items: center;
+    gap: 12px;
+    margin-right: 15px !important;
+
+}
+
+.Print-Preview-printer-icon{
+    padding: 10px !important;
+    justify-content:center ;
+}
+
+
+.Print-Preview-print-btn{
+    
+    width: 55px !important;
+
+}
+
+.Print-Preview-PackDispatch-page-header-btn {
+    background-color: #fdfeff;
+    color: #181717;
+    border: none !important;
+   
+}
+
+.Print-Preview-main-container{
+    width: 100%;
+    margin-left: 30px !important;
+    margin-right: 30px !important;
+    margin-top: 40px !important;
+    box-sizing: border-box !important;
+    
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center;
+    align-items: center; */
+    overflow: hidden !important;
+}
+.PrintPreview-main{
+    width: 97%;
+    padding: 100px 45px 100px 10px !important;
+    display: flex !important;
+    background: #ffffff !important;
+    justify-content: center !important;
+    align-content: center !important;
+}
+
+.PrintPreview-main-left {
+    width: 25% !important;
+}
+
+.PrintPreview-main-right{
+    width: 75% !important;
+}
+
+.PrintPreview-main-right-row-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.PrintPreview-main-right-row{
+    display: flex !important;
+    padding-bottom: 20px !important;
+}
+
+.PrintPreview-main-right-table1{
+    border-radius: 0px !important;
+
+}
+.PrintPreview-main-right-table2{
+    border-radius: 0px !important;
+    box-shadow: none;
+
+}
+
+.PrintPreview-main-right-table2 tr {
+    background-color: #ffffff !important;
+}
+.PrintPreview-main-right-table1,.PrintPreview-main-right-table1-th,.PrintPreview-main-right-table1-td {
+    /* border: 1px solid #000 !important; */
+    border-collapse: collapse !important;
+    padding: 15px !important;
+    
+
+    
+    
+ }
+
+ .PrintPreview-main-right-table1-td {
+    font-size: 1.9rem !important;
+    /* font-weight: bolder !important; */
+    font-weight: 400 !important;
+    text-align: start !important;
+
+ }
+ 
+
+ .PrintPreview-main-right-table1-th{
+    font-size: 1.9rem !important;
+    /* font-weight: bolder !important; */
+    font-weight: 400 !important;
+    text-align: start !important;
+}
+.PrintPreview-main-right-table2-th{
+    font-size: 1.9rem !important;
+    font-weight: 400 !important;
+    /* font-weight: bolder !important; */
+    text-align: start !important;
+}
+
+/* .PrintPreview-main-right-table1-td{
+
+} */
+
+.tabledata{
+    max-height: 400px !important;
+    height: 60px !important;
+}
+
+.PrintPreview-main-right-table1-td{
+    align-items: center !important;
+    text-align: center !important;
+    font-size: 1.9rem !important;
+    font-weight: 400 !important;
+}
+
+.Customer-Name{
+    padding: 20px !important;
+}
+
+
+/* .page-back-btn{
+    margin-left: 20px !important;
+} */
+
+.pairing-table-container{
+    width: 100% !important;
+}
+
+.pairing-table{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 98% !important;
+}
+.cell-srno{
+    width: 0% !important;
+}
+
+.cell-uid,.cell-order-id,.cell-delete-icon{
+    width: 10% !important;
+}
+.cell-order-no{
+    width: 10% !important;
+
+}
+.cell-delete-icon{
+    width: 0% !important;
+
+}
+.PackDispatch-Container{
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 0px;
+    width: 97%!important;
+}
+
+.PackDispatch-page-header-btn{
+    background-color: #fdfeff;
+    color: #181717;
+    padding:10px 15px !important;
+}
+.PackDispatch-page-header-btn.filled {
+    background-color: #fdfeff;
+    color: #181717;
+    padding:10px 15px !important;
+}
+
+
+.PackDispatch-SettingsIcon-btn{
+    border: 1px solid #475467;
+  border-radius: 4px;
+  padding: 8px 16px 8px 16px;
+  background-color: #fff;
+  color: #3c4856;
+  width: fit-content;
+  /* height: 50px; */
+  /* display: flex; */
+  align-items: left;
+  /* justify-content: center; */
+  font-size: 18px;
+  cursor: pointer;
+}
+
+
+.PackDispatch-header-btn-group{
+ display: flex;
+ text-align: right;
+ align-items: center;
+ gap: 12px;
+ margin-top: 0;
+ flex-wrap: wrap;
+ justify-content: right;
+ padding: 10px 15px;
+ 
+}
+
+.PackDispatch-header-btn-group1{
+    /* display: flex; */
+    justify-content: space-between;
+}
+
+.PackDispatch-header-btn-group-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 10px !important;
+
+}
+
+.Cname-drop-down{
+    margin: 0 0 0 15px;
+    padding: 8px 0px 8px 5px;
+    border-radius: 5px;
+    text-align: left;
+    align-items: left;
+}
+
+.Cname-option{
+    align-items: left;
+    text-align: left;
+    justify-content: left;
+    border-radius: 5px;
+}
+.PrintPreview-main-right-table2-tr td{
+    white-space: normal;
+}
+
+
+.Print-Preview-Box-Lable-Printing{
+    margin-left: 30px !important;
+}
+
+
+
+
+.PrintPreview-main-right-row-img .Kamfet{
+    width: 34%;
+    height: auto;
+}
+.PrintPreview-main-right-row-img .ElectricalGloves{
+    width: 34%;
+    height: auto;
+
+}
+.PrintPreview-main-right-row-img .ExaminationModule{
+    width: 34%;
+    height: auto;
+
+}
+
+.PrintPreview-main-left .DemoOR{
+    width: 75% !important;
+    height: auto !important;
+
+}
+
+.PrintPreview-main-left .RaychemRPGLogo{
+    width: 90%;
+    height: auto;
+
+}
+.PBD-back-button{
+    cursor: pointer !important;
+}
+
+.PrintedBoxDetail-main-container{
+    display: flex !important;
+    justify-content: space-between !important;
+    margin-top: 10px !important;
+}
+
+.PrintedBoxDetail-container{
+    margin-top: 25px !important;
+}
+.PrintedBoxDetail-header{
+    padding-left: 25px !important;
+}
+@media (max-width: 1199px) {
+    .PrintOrder-message-box{
+        top: 21%;
+        right: 10%;
+    }
+    .Phone-img{
+        top: 54% !important;
+    }
+}
+
+
+@media (max-width: 1024px) {
+
+    .PackDispatch-Container{
+        width: 95% !important;
+    }
+    .PrintOrder-message-box{
+        top: 18%;
+        right: 13%;
+    }
+
+    /* .Phone-img {  
+        position: absolute;
+        top: 286px;
+        width: 350px;
+        height: 579px;
+        left: 185px;
+    } */
+
+    .Phone-image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Phone-img{
+    
+    
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .PrintPreview-main{
+        padding: 50px;
+    }
+
+    .PrintPreview-main-right-row-img .Kamfet{
+        width: 33%;
+        height: auto;
+    }
+    .PrintPreview-main-right-row-img .ElectricalGloves{
+        width: 33%;
+        height: auto;
+
+    }
+    .PrintPreview-main-right-row-img .ExaminationModule{
+        width: 30%;
+        height: auto;
+
+    }
+
+    .PrintPreview-main-left .DemoOR{
+        width: 50% !important;
+        height: auto !important;
+
+    }
+
+    .PrintPreview-main-left .RaychemRPGLogo{
+        width: 80%;
+        height: auto;
+
+    }
+    .PrintPreview-main-right-table1-th,.PrintPreview-main-right-table2-th , .PrintPreview-main-right-table1-td{
+        font-size: 10px !important;
+    }
+    .PrintPreview-main-right-table2-th{
+        padding: 10px !important;
+    }
+    .PrintPreview-main-right-table1-td{
+        padding: 8px !important;
+       
+
+    }
+    .PrintPreview-main-right-table2-tr{
+        font-size: 10px !important;
+        padding: 8px !important;
+        /* white-space: ; */
+    }
+    .PrintPreview-main-right-table2-tr td{
+        white-space: normal;
+    }
+    .Customer-Name {
+        padding: 12px !important;
+    }
+    .Scanforme{
+        font-size: 14px !important;
+        padding: 10px !important;
+        
+    }
+    .tabledata{
+        height: 25px !important;
+    }
+
+}
+@media (max-width: 840px) {
+
+    .PrintPreview-main{
+        padding: 65px 45px 65px 10px !important;
+    }
+    .PrintPreview-main-right-table2-tr td{
+        white-space: normal;
+    }
+    .PackDispatch-Container {
+        width: 95% !important ;
+    }
+
+    .PrintPreview-main{
+        padding: 50px;
+    }
+    .PrintOrder-message-box {
+        width: 150px;
+        right: 15%;
+        top: 15%;
+        z-index:10;
+        opacity: 1;
+        border-radius: 5px;
+   
+    }
+
+    /* .Phone-img {  
+        position: absolute;
+        top: 286px;
+        width: 350px;
+        height: 579px;
+        left: 185px;
+    } */
+
+    .Phone-image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Phone-img{
+    
+    
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+
+    .PrintPreview-main-right-row-img .Kamfet{
+        width: 34%;
+        height: auto;
+    }
+    .PrintPreview-main-right-row-img .ElectricalGloves{
+        width: 34%;
+        height: auto;
+
+    }
+    .PrintPreview-main-right-row-img .ExaminationModule{
+        width: 30%;
+        height: auto;
+
+    }
+
+    .PrintPreview-main-left .DemoOR{
+        width: 72% !important;
+        height: auto !important;
+
+    }
+
+    .PrintPreview-main-left .RaychemRPGLogo{
+        width: 94%;
+        height: auto;
+
+    }
+    .PrintPreview-main-right-table1-th,.PrintPreview-main-right-table2-th , .PrintPreview-main-right-table1-td{
+        font-size: 15px !important;
+    }
+
+    .PrintPreview-main-right-table1-th{
+        width: 30%;
+    }
+    .PrintPreview-main-right-table2-th{
+        padding: 10px !important;
+    }
+    .PrintPreview-main-right-table1-td{
+        padding: 8px !important;
+        width: 70%;
+
+    }
+    .PrintPreview-main-right-table2-tr{
+        font-size: 10px !important;
+        padding: 8px !important;
+
+
+    }
+    .Customer-Name {
+        padding: 12px !important;
+    }
+    .Scanforme{
+        font-size: 12px !important;
+        padding: 10px !important;
+        
+    }
+    .tabledata{
+        height: 35px !important;
+    }
+
+    .PackDispatch-header-btn-group-container{
+        flex-direction: column !important;
+        align-items: flex-start;
+
+    }
+    .boxno-customernumber{
+        justify-content: space-between !important;
+        width: 100% !important;
+    }
+    .PrintedBoxDetail-main-container{
+        flex-direction: column !important;
+    }
+    .PrintedBoxDetail-header{
+        justify-content: space-between !important;
+    }
+    .orderid {
+        justify-content: left !important;
+    }
+  }

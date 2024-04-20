@@ -1,0 +1,32 @@
+input[type="checkbox"] {
+  height: 18px !important;
+  width: 18px !important;
+  cursor: pointer !important;
+  accent-color: #1c407b !important;
+}
+.keep-login-label {
+  font-size: 18px !important;
+}
+.keep-login-wrap {
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+}
+
+.ReCAPTCHA-R{
+  padding: 10px 0 10px !important;
+}
+
+.form-footer {
+  display: flex !important;
+  justify-content: space-between !important;
+  margin-bottom: 60px !important;
+}
+.forgot-link,
+.forgot-link:hover {
+  color: #001323 !important;
+}
+.form-footer.custom-margin {
+  margin-bottom: 9px !important;
+}
+

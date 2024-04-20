@@ -1,0 +1,245 @@
+.sendDocs{
+    text-align: left;
+    background-color: #d3d3d3;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.CountryCode{
+    width: 13% !important;
+    margin-bottom: 11px !important;
+    /* padding: 9px!important; */
+    border: 1px solid #000000 !important;
+    border-radius: 6px !important;
+    opacity: 1 !important;
+    
+}
+.CountryCode .css-1fdsijx-ValueContainer {
+    padding: 5px 8px !important;
+}
+
+.CountryCode .css-hlgwow{
+    padding: 5px 8px !important;
+}
+.CountryCode-PhoneNumber-flex{
+    display: flex !important;
+    gap: 10px !important;
+}
+.PhoneNumber{
+    width: 86% !important;
+    margin-bottom: 11px !important;
+    padding: 9px!important;
+    border: 1px solid #000000 !important;
+    border-radius: 6px !important;
+    opacity: 1 !important;
+    
+}
+.send-reports {
+    margin-top: 17px;
+    color: #001323;
+    margin-left: 20px;
+    padding-top: 0px;
+    margin-right: 20px;
+}
+
+.send-reports h3 {
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #1C407B;
+}
+
+.form-input {
+    margin-bottom: 11px !important;
+    padding: 9px !important;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    opacity: 1;
+    width: 94%;
+}
+
+.form-label {
+    font-weight: 500;
+    color: #001323;
+    margin-bottom: 8px;
+    margin-top: 2px;
+    font-size: 16px;
+}
+
+.checkbox1 {
+    color: #001323 !important;
+}
+
+.checkbox {
+    margin-top: -16px;
+}
+
+.checkbox-label {
+    margin-top: 9px;
+}
+.sending-email{
+    width: 32%;
+}
+
+.email-btn {
+    background-color: #E31E24;
+    color: white;
+    border: 1px solid #C71A1F;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.Email-report {
+    border: 1px solid #E31E24;
+    text-transform: capitalize;
+    font-size: 18px;
+    line-height: 20px;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #E31E24;
+    width: 100%;
+    padding: 8px;
+    font-weight: 500;
+    clear: both;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-decoration: none;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.sendingdataaaa {
+    position: fixed;
+    top: 40%;
+    left: 25%;
+    transform: translate(-50px, -50px);
+    z-index: 99;
+
+}
+
+.pairingcard-Approved-msg {
+    height: auto;
+    width: auto;
+    font-size: 20px;
+    padding: 30px 72px;
+    box-shadow: 0px 0px 40px #0000008A !important;
+}
+
+.email-report-popup{
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 40%;
+        left: 0;
+        right: 0;
+        pointer-events: auto;
+      
+
+}
+.email-report-popup-btn{
+    display: block;
+    margin: 20px auto;
+    padding:10px 30px;
+
+}
+
+.email-report-popup-approved {
+
+    height: auto;
+    width: auto;
+    padding: 56px 81px 0px;
+    box-shadow: 0px 0px 30px #0000008a;
+  }
+
+
+.pairing-status {
+    color: #1C407B;
+    font-weight: bold;
+}
+.send-email-Aprroved{
+    position: fixed;
+    top: 40%;
+    left: 42%;
+    transform: translate(-50px, -50px);
+    z-index: 99;
+    /* padding: 100px; */
+    /* background-color: #ffffff; */
+}
+.successbtn {
+    width: 92px;
+    border: 1px solid #C71A1F;
+    background: #E31E24;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 22px;
+}
+@media(max-width: 375px) {
+    .pairingcard-Approved {
+        padding: 10px 41px;
+    }
+}
+@media(min-width :200px) and (max-width:767px){
+    .pairingcard-Approved {
+        height: auto;
+        width: auto;
+        padding: 50px 40px !important;
+        margin-left: -41px;
+        box-shadow: 0px 0px 30px #0000008a;
+    }
+    .email-Approved {
+        height: auto;
+        width: auto;
+        padding: 33px 10px !important;
+        margin-left: 9px;
+        box-shadow: 0px 0px 30px #0000008a;
+    }
+    .send-email-Aprroved{
+        position: fixed;
+        top: 40%;
+        left: 28%;
+        transform: translate(-50px, -50px);
+        z-index: 99;
+    }
+    .CountryCode-PhoneNumber-flex{
+        flex-wrap: wrap !important;
+    }
+    .CountryCode{
+        width: 100% !important;
+    }
+    .PhoneNumber{
+        width: 100% !important;
+    }
+}
+
+@media(min-width : 768px) and (max-width: 1024px) {
+    .sendingdataaaa {
+        position: fixed;
+        top: 40%;
+        left: 35%;
+        transform: translate(-50px, -50px);
+        z-index: 99;
+    }
+    .send-email-Aprroved{
+        position: fixed;
+        top: 40%;
+        left: 28%;
+        transform: translate(-50px, -50px);
+        z-index: 99;
+    }
+    .CountryCode {
+     width: 36% !important;
+    }
+    .CountryCode-PhoneNumber-flex{
+       gap: 10px !important;
+    }
+}
+@media(min-width : 1024px) and (max-width: 1536px) {
+    .CountryCode{
+        width: 17% !important;
+    }
+}

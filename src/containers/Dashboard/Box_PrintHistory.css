@@ -1,0 +1,42 @@
+.PrintHistory-table{
+    margin-top: 25px !important;
+
+}
+/* .Print-History-header{
+    margin-top: 116px;
+} */
+
+.pairing-table td {
+    padding: 13px !important;
+  }
+  
+  .pairing-table tr {
+    background-color: #fff !important;
+  }
+  
+  .pairing-table tr:nth-child(even) {
+    background-color: #f1f1ff !important;
+  }
+  
+  
+  .pairing-table th {
+    font-size: 17px !important;
+  }
+
+
+  .table-pagination{
+    margin-bottom: 30px !important;
+  }
+
+  .user-eye-icon-container{
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center;
+    border: none !important;
+  }
+  .box-no-print-status{
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    border: none !important;
+  }

@@ -1,0 +1,23 @@
+.input-field {
+    width: 100%;
+    background: #F4F7FE;
+    margin-bottom: 20px !important;
+}
+
+.input-field input {
+    height: 36px;
+    border: 0;
+    border-bottom: 1px solid #8892A0;
+    display: block;
+    padding: 0 10px;
+    margin: 0;
+    width: 100%;
+    margin-top: 10px;
+}
+.input-field label {
+    top: 5px !important;
+    left: 10px !important;
+}
+.input-field p {
+    background-color: #fff;
+}

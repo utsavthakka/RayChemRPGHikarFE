@@ -1,0 +1,179 @@
+.modal-wrapper {
+    padding: 20px;
+    max-width: 100%;
+
+}
+.modal-header {
+    padding: 10px 16px;
+    background: #1c407b;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+    position: sticky;
+    top: 0;
+    /* z-index: 2; */
+}
+
+.radio-btn{
+    align-items: center;
+}
+.radio-btn-section {
+    border-right: 2px solid #ccc;
+    display: flex;
+    align-items: center;
+    height: 330px;
+    padding-left: 50px!important;
+}
+.form-input {
+    margin-bottom: 11px !important;
+    padding: 9px!important;
+    border: 1px solid #000000 !important;
+    border-radius: 6px !important;
+    opacity: 1 !important;
+    width: 100% !important;
+}
+.uid-box{
+    display: flex;
+    width: 100%;
+    margin: 0px 0px;
+    gap: 10px;
+}
+.submit-button {
+    width: 176px;
+    height: 46px;
+    display: flex !important;
+    justify-content: center;
+    margin: -14px auto 0px !important;
+    background: #1C407B 0% 0% no-repeat padding-box !important;
+    border: 1px solid #103168;
+    color: #fff !important;
+    padding: 12px;
+
+}
+.add-batch-modal .MuiOutlinedInput-notchedOutline {
+    border-color: black;
+}
+.add-batch-modal label.MuiFormLabel-filled {
+    color: black;
+}
+.add-batch-modal .radio-label span {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.add-batch-modal .radio-label-scre span {
+    font-weight: 900;
+    font-size: 16px;
+}
+.batch{
+    margin: 0 auto;
+    display: block;
+    padding-left: 24px!important;
+    max-width: 50% !important;
+    margin: 0 auto !important;
+}
+.tableclass{
+    width: 50%;
+}
+.batchNo{
+    width: 100%;
+}
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper{
+    max-width: 630px!important;
+}
+.edit-btn{
+    border: none;
+    background: none;
+    width: 100%;
+    padding: 0;
+}
+
+@media (max-width: 899.98px) {
+    .radio-btn-section {
+        border-right: 0px solid #ccc;
+        height: auto;
+        align-items: center;
+        margin-left: 105px;
+    }
+
+    .radio-btn{
+        align-items: center;
+    }
+}
+@media (max-width:399.98px){
+    .radio-btn-section {
+        border-right: 0px solid #ccc;
+        height: auto;
+        align-items: center;
+        margin-left: 0!important;
+    }
+}
+@media (max-width:299.98px){
+    .radio-btn-section {
+        border-right: 0px solid #ccc;
+        height: auto;
+        align-items: center;
+        margin-left: 0!important;
+    }
+}
+@media (max-width: 1100.98px) {
+    .radio-btn{
+        align-items: center;
+    }
+}
+@media only screen and (min-width: 200px) and (max-width: 767px){
+    .uid-box{
+        display: flex;
+        width: 100%;
+        margin: 0px 0px;
+        gap: 10px;
+        
+    }
+    .tableclass{
+        width: 50%;
+        margin-left: 8px
+    }
+    .batchNo{
+        width: 100%;
+    }
+    .batch{
+        margin: 0 auto;
+        display: block;
+        padding-left: 0px;
+    }
+    .radio-btn-section {
+        border-right: 0px solid #ccc;
+        height: auto;
+        align-items: center;
+        margin-left: 44px!important;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .uid-box{
+        display: flex;
+        width: 100%;
+        margin: 0px 0px;
+        gap: 10px;
+    }
+    .radio-btn-section {
+        border-right: 0px solid #ccc;
+        height: auto;
+        align-items: center;
+        /* display: contents; */
+        margin-left: 59px!important;
+    }
+    .tableclass{
+        width: 50%;
+    }
+    .batch{
+        margin: 0 auto;
+        display: block;
+        padding-left: 0px;
+    }
+    .batchNo{
+        width: 100%;
+    }
+
+}

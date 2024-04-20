@@ -1,0 +1,303 @@
+.action-wrapper-main {
+  justify-content: center;
+  display: flex;
+}
+
+.action-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.action-wrapper .input-label {
+  font-size: 16px;
+  text-align: left;
+  font-weight: 600;
+  color: #001323;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.action-wrapper .select-input fieldset {
+  border: 0px;
+}
+
+.action-wrapper .select-input .input-filed + div {
+  border: 1px solid #a9b0bd;
+  background-color: #fff;
+  text-align: start;
+}
+
+.action-wrapper .pair-button {
+  height: 154px;
+  width: 149px;
+  border: 1px solid #333333;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: -4px auto 20px auto;
+  cursor: pointer;
+  background-color: #ececec;
+}
+
+.action-wrapper .pair-button img {
+  filter: grayscale(1);
+  opacity: 0.2;
+}
+
+.action-wrapper .pair-button.success {
+  border-color: #00ab66;
+  background-color: #e8f8f2;
+}
+
+.action-wrapper .pair-button.failed {
+  border-color: #e6353a;
+  background-color: #ffeced;
+}
+
+.action-wrapper .pair-button.success img,
+.action-wrapper .pair-button.failed img {
+  filter: grayscale(0);
+  opacity: 1;
+}
+
+div#customerId {
+  padding: 5.5px 14px !important;
+}
+
+.gloves-form {
+  margin-bottom: 0px !important;
+}
+
+.lotnumberinput {
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #c9c9c9;
+}
+
+.pairingcard-Approved {
+  height: auto;
+  width: auto;
+  padding: 56px 81px 0px;
+  box-shadow: 0px 0px 30px #0000008a;
+}
+.pairingcard-btn{
+  margin: 20px;
+  padding: 6px 30px;
+}
+.pairingcard-btn:hover{
+  background-color: #21437f;
+  box-shadow: 0px 0px 10px rgb(157, 153, 153);
+}
+
+.pairing-status {
+  color: #1c407b;
+  font-weight: bold;
+}
+
+.pairing-table td {
+  padding: 13px !important;
+}
+
+.pairing-table tr {
+  background-color: #fff !important;
+}
+
+.pairing-table tr:nth-child(even) {
+  background-color: #f1f1ff !important;
+}
+
+.datepairing-checkbox {
+  margin-left: 15px;
+}
+
+.pairing-table th {
+  font-size: 17px !important;
+}
+
+
+.sendingdataaaa1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right: 0;
+  pointer-events: auto;
+}
+
+.sendingdatasimple-pop-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right: 0;
+  pointer-events: auto;
+}
+.pairingcard-Approved-simple-pop-up{
+  height: auto;
+  width: auto;
+  padding: 56px 120px 40px;
+  box-shadow: 0px 0px 30px #0000008a;
+
+}
+
+.center-content {
+  text-align: center;
+}
+
+
+/* .pair-button-disable{
+  pointer-events: none;
+  opacity: 0.5; 
+} */
+
+.gloves-page-overlay {
+  /* position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as desired */
+  /* z-index: 9999;  */
+  pointer-events: none; /* Allow mouse events to pass through the overlay */
+}
+
+.SettingsIcon-btn{
+
+  border: 1px solid #475467;
+  border-radius: 4px;
+  padding: 8px 12px 8px 12px;
+  background-color: #fff;
+  color: #3c4856;
+  width: fit-content;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+
+.page-header-button{
+  border: none;
+  border-radius: 4px;
+  padding: 0px 0px 0px 0px !important;
+  /* margin-left: 10px; */
+  background-color: #fff;
+  color: #edeeef;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 35px;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  cursor: pointer;
+
+}
+
+.Container-UID-Printer{
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px;
+  padding: 10px 16px !important;
+  justify-content: space-between;
+  border: 0px !important;
+}
+.message-box {
+  position: absolute;
+  background-color: #FFFFFF;
+  padding: 10px;
+  /* border: 1px solid #ccc; */
+  border-radius: 5px;
+  width: 200px;
+  right: 2%;
+  top: 17%;
+  z-index:10;
+  opacity: 1;
+}
+/* .custom-checkbox{
+  pointer-events: none;
+} */
+
+
+@media (max-width: 768px) {
+  .message-box {
+      width: 150px;
+      right: 4%;
+      top: 21%;
+      z-index:10;
+      opacity: 1;
+      border-radius: 5px;
+ 
+  }
+}
+
+@media (max-width: 1024px) {
+  .message-box {
+      top: 22%;
+      right: 2%;
+  }
+}
+
+@media (max-width: 1199px) {
+  .message-box {
+      top: 22%;
+      right: 2%;
+  }
+}
+
+/* @media (min-width: 1024px) {
+  .message-box{
+    top: 28%;
+    right: 3%;
+
+  }
+
+} */
+
+.Select-Printer{
+  size:30px;
+  font-weight:700;
+}
+
+.arrow {
+  position: absolute;
+  top: -10px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  /* border: 2px solid #000000; */
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #FFFFFF;
+  /* border-top: 1px solid #ccc; */
+  /* box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.1); Optional: Adding shadow to the arrow */
+
+}
+
+.Printer-container{
+  /* justify-content: center; */
+  /* justify-content: space-between;
+   */
+   align-items: center;
+   display: flex;
+  justify-content: space-between;
+
+
+}
+
+
+.Printer-checkbox{
+  color: #1c407b !important;
+ 
+
+}

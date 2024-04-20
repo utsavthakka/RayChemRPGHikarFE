@@ -1,0 +1,116 @@
+.gloves-scan-card {
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.87);
+}
+.gloves-scan-card .gloves-img-wrraper {
+  background-color: #d8d4d4;
+  height: 400px;
+}
+.gloves-scan-card .gloves-detail-wrraper {
+  padding: 12px;
+}
+.gloves-scan-card .gloves-detail-wrraper table {
+  width: 100%;
+}
+.gloves-scan-card .gloves-detail-wrraper table,
+.gloves-scan-card .gloves-detail-wrraper table tr,
+.gloves-scan-card .gloves-detail-wrraper table td {
+  border: 0 !important;
+  background-color: #fff;
+  padding: 5px 0 !important;
+  text-align: left;
+  color: #001323;
+}
+.gloves-scan-card .gloves-detail-wrraper table tr td:first-child {
+  width: 40%;
+  font-weight: 600;
+  padding-right: 5px !important;
+}
+.gloves-scan-card .gloves-detail-wrraper table tr td .table-input {
+  width: 100%;
+}
+.gloves-scan-card .gloves-detail-wrraper table tr td .table-input input {
+  border: 1px solid #a9b0bd;
+  padding: 8px 10px;
+  border-radius: 8px;
+  background-color: #f1f1ff;
+}
+.gloves-scan-card .gloves-detail-wrraper table tr td .table-input fieldset {
+  border: 0;
+}
+
+.gloves-scan-card .gloves-detail-wrraper .button-wrapper {
+  display: flex;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.gloves-scan-card .gloves-detail-wrraper .button-wrapper .status {
+  padding: 12px 4px;
+  border: 1px solid;
+  text-align: center;
+  flex-grow: 1;
+  cursor: pointer;
+  font-size: 13px;
+}
+.gloves-scan-card .gloves-detail-wrraper .button-wrapper .status.true {
+  color: #00ab66;
+  border-color: #00ab66;
+  background: #e8f8f2;
+}
+
+.gloves-scan-card .gloves-detail-wrraper .button-wrapper.status.false {
+  color: #e31e24;
+  border-color: #e31e24;
+  background: #ffeced;
+}
+
+.gloves-scan-card .gloves-detail-wrraper .button-wrapper .status.pending {
+  color: #333333;
+  border-color: #333333;
+  background: #ececec;
+}
+
+.iphonemodal {
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-height: initial;
+  z-index: 10;
+  height: 100%;
+  width: auto;
+}
+.QR-scanner {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+.camera-div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* height: 70%; */
+  width: 75%;
+  margin-top: -6px;
+}
+@media (max-width: 599.98px) {
+  .gloves-scan-card .gloves-detail-wrraper .table-grid:first-child {
+    padding-top: 16px;
+  }
+  .gloves-scan-card .gloves-detail-wrraper .table-grid {
+    padding-top: 0px;
+  }
+  .gloves-scan-card .gloves-detail-wrraper .button-wrapper {
+    flex-direction: column;
+    height: 146px;
+  }
+  .gloves-scan-card .gloves-detail-wrraper .button-wrapper .status {
+    width: 100%;
+  }
+}

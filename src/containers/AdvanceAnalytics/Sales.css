@@ -1,0 +1,40 @@
+.sales-card {
+    width: 32%;
+    float: right;
+    margin-top: -52px;
+    background-color: white;
+    height: 42px;
+    padding: 10px;
+    border-radius: 4px;
+
+}
+.sales-card p{
+    margin-left: 16px;
+    border-right: 1px solid #A9B0BD;
+    padding-right: 17px;
+    height: 25px;
+}
+/* .sales-card table {
+    border-radius: 0px;
+    height: 42px;
+    border: none!important;
+} */
+.sales-table table{
+    border-radius: 0px;
+}
+
+@media(min-width:768px) and (max-width:1024px){
+    .sales-card {
+        display: none!important;
+        /* width: 20%;
+        float: right;
+        margin-top: -52px;
+        margin-right: 85px; */
+    }
+    
+}
+@media(min-width:1920px){
+    .sales-card {
+        width: 22%;
+    }
+}
